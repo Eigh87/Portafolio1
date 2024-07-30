@@ -1,0 +1,5 @@
+.presentacion__enlaces__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}

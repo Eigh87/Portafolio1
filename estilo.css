@@ -1,0 +1,28 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: turquoise;
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    height: 80%;
+    
+}
+
+.image {
+    flex: 1;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+    transition: flex 0.5s ease-in-out;
+}
+
+.image:hover {
+    flex: 4;
+}
